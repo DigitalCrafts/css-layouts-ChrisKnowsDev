@@ -1,0 +1,30 @@
+section {
+  height: 100%;
+}
+
+header {
+  text-align: center;
+}
+
+main {
+  float: left;
+  width: 70%;
+  height: 100%;
+}
+
+aside {
+  float: right;
+  width: 20%;
+  height: 100vh;
+}
+
+.clearfix {
+  clear: both;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}

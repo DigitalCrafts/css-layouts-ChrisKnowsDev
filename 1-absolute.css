@@ -1,0 +1,34 @@
+* {
+  box-sizing: border-box;
+}
+
+header,
+main,
+aside,
+footer {
+  position: absolute;
+}
+
+header {
+  width: 100%;
+  text-align: center;
+}
+
+aside {
+  top: 88px;
+  right: 0;
+  width: 30%;
+  height: calc(100% - 88px);
+}
+
+main {
+  top: 88px;
+  width: 70%;
+}
+
+footer {
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  padding: 2rem;
+}
